@@ -17,3 +17,4 @@ HEAD: The HEAD method is like a GET request, but it only retrieves the headers, 
 OPTIONS: The OPTIONS method is used to determine what HTTP methods are allowed for a particular resource. (I used it to check whether GET, POST, PUT, PATCH, and DELETE requests are allowed and working correctly)
 
 I also created environments and used global variables in Postman to easily access data, avoiding the need to repeatedly search, create, modify, and validate data manually.
+I have also worked with assertions to validate the Status Code, Response Time, Response Size, Request Size, Content-Type, and Content-Length, and identified the passed and failed test results.
