@@ -18,7 +18,7 @@ API stands for** Application Programming Interface.** An API is a bridge that al
 
 **API URL:** [https://restful-booker.herokuapp.com](https://restful-booker.herokuapp.com/)
 
-to get the users, 
+To get the users, 
 
 **GET:** [https://restful-booker.herokuapp.com/booking](https://restful-booker.herokuapp.com/booking)
 
