@@ -1,6 +1,8 @@
 # Booking-API-Testing
 
-**Booking API Testing Collection (Project Link) Link:** https://www.postman.com/abdullahshahed/workspace/booking-api-workspace/collection/29211991-849d2002-4528-477b-b360-6b035ba11116?action=share&creator=29211991&active-environment=29211991-e4828e0f-359d-44a9-ba0d-1e5bc8aec880  
+**Booking API Testing Collection Link:** https://www.postman.com/abdullahshahed/workspace/booking-api-workspace/collection/29211991-849d2002-4528-477b-b360-6b035ba11116?action=share&creator=29211991&active-environment=29211991-e4828e0f-359d-44a9-ba0d-1e5bc8aec880  
+
+**Booking Environent Link:** https://www.postman.com/abdullahshahed/workspace/booking-api-workspace/environment/29211991-e4828e0f-359d-44a9-ba0d-1e5bc8aec880?action=share&creator=29211991&active-environment=29211991-e4828e0f-359d-44a9-ba0d-1e5bc8aec880
 
 API stands for** Application Programming Interface.** An API is a bridge that allows different software applications to talk to each other. I tested a Booking API with verious request(GET, POST, PUT, PATCH, DELETE, HEAD and OPTIONS).
 
