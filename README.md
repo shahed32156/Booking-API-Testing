@@ -67,7 +67,7 @@ https://restful-booker.herokuapp.com
 ```
 │  
 └── Collections # Kind of directory where we create requests  
-└──Environments # Environment variable where we create variables in perticuar environment    
+└── Environments # Environment variable where we create variables in perticuar environment    
 └── Request # Send HTTP request to server  
 └── Body # (Request Body) for Send Request  
 └── Headers # Add Headers info  
