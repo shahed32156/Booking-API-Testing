@@ -72,7 +72,7 @@ https://restful-booker.herokuapp.com
 └── Body # (Request Body) for Send Request  
 └── Headers # Add Headers info  
 └── Scripts # Write pre-request and post-response script    
-└──  Response Body # Check the Response from server  
+└── Response Body # Check the Response from server  
 └── Headers # Check the Response Headers info  
 └── Test Results # View test Results post-response scripts
 ```
