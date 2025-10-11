@@ -1,32 +1,101 @@
-# Booking-API-Testing
+### 💼 Project Title
 
-**Booking API Testing Collection Link:** https://www.postman.com/abdullahshahed/workspace/booking-api-workspace/collection/29211991-849d2002-4528-477b-b360-6b035ba11116?action=share&creator=29211991&active-environment=29211991-e4828e0f-359d-44a9-ba0d-1e5bc8aec880  
+Booking API Testing Using Postman
 
-**Booking Environment Link:** https://www.postman.com/abdullahshahed/workspace/booking-api-workspace/environment/29211991-e4828e0f-359d-44a9-ba0d-1e5bc8aec880?action=share&creator=29211991&active-environment=29211991-e4828e0f-359d-44a9-ba0d-1e5bc8aec880
+### 📝 Project Description
 
-API stands for** Application Programming Interface.** An API is a bridge that allows different software applications to talk to each other. I tested a Booking API with verious request(GET, POST, PUT, PATCH, DELETE, HEAD and OPTIONS).
+This project focuses on **API testing** of the Restful Booking API, a publicly available RESTful web service for practicing end-to-end testing of booking functionalities.    
+Using **Postman**, various HTTP methods (GET, POST, PUT, PATCH, DELETE, HEAD and OPTIONS) and test scripts have been applied to validate different endpoints, ensure correct responses, assertions and verify data integrity in the booking system.
 
-I performed API Testing using the API link below:
+### 🎥 Project Video Link
 
-**API URL:** [https://restful-booker.herokuapp.com](https://restful-booker.herokuapp.com/)
+```
+https://drive.google.com/file/d/1Do-ruA_gBjrm4fSr0YxAOakiBh_jLYMC/view?usp=sharing
+```
 
-To get the users, 
+### 🚀 Features of API
 
-**GET:** [https://restful-booker.herokuapp.com/booking](https://restful-booker.herokuapp.com/booking)
+- View booking Info
+- Create bookings
+- Generate the authorization/access token
+- Update bookings info
+- Update parial bookings info
+- Delete bookings
+- Check the API is working correctly
+- Check the methods are allowed for a particular resource
 
-**GET:** The GET method is used to retrieve data from the server. (I retrieved data from the Booking API)
+### 🔗 Open your browser and navigate to
 
-**POST:** The POST method is used to create new resources. (I created data in the Booking API using an authorization token)
+```
+https://restful-booker.herokuapp.com
+```
 
-**PUT:** The PUT method is used to replace an existing resource with an updated version. (I updated or modified the existing data for a particular bookingid in the Booking API using an authorization token)
+### 📜 Example Endpoints
 
-**PATCH:** The PATCH method is used to update an existing resource partially. (I updated or modified a single key-value pair for a particular bookingid in the Booking API using an authorization token)
+```
+- GET: /booking - Get or view the all booking info
 
-**DELETE:** The DELETE method is used to remove data from a database or API. (I deleted existing data for a particular bookingid from the Booking API using an authorization token)
+- GET: /booking/{id} - Get or view the specific booking info
 
-**HEAD:** The HEAD method is like a GET request, but it only retrieves the headers, not the response body. (I used it to ensure that the API or URL is working correctly)
+- POST: /booking - Create a new booking
 
-**OPTIONS:** The OPTIONS method is used to determine what HTTP methods are allowed for a particular resource. (I used it to check whether GET, POST, PUT, PATCH, and DELETE requests are allowed and working correctly)
+- POST: /booking - Generate access token
 
-I also created environments and used global variables in Postman to easily access data, avoiding the need to repeatedly search, create, modify, and validate data manually.
-I have also worked with assertions to validate the Status Code, Response Time, Response Size, Request Size, Content-Type, and Content-Length, and identified the passed and failed test results.
+- PUT: /booking/{id} - Update the booking info
+
+- PATCH: /booking/{id} - Update the partial booking info
+
+- DEL: /booking/{id} - Delete a booking
+
+- HEAD: /booking/ -Check the API is working correctly
+
+- OPT: /booking/ - Check the methods are allowed for a particular resource
+```
+
+### ⚙️ Steps to run the API using Postman
+
+- Open the Postman
+- Create a Collection
+- Create 8 HTTP Request's method according to endpoints
+- Create Environment for create Base URL and envirnment variables
+- Create some necessary params on HTTP Request's methods like Content-Type, Accept and Cookies
+- Some assertion performed on Post response script
+- Finally Run the Collection and view the Response
+
+### 🗂️ Project Structure
+
+```
+│  
+└── Collections # Kind of directory where we create requests  
+└──Environments # Environment variable where we create variables in perticuar environment    
+└── Request # Send HTTP request to server  
+└── Body # (Request Body) for Send Request  
+└── Headers # Add Headers info  
+└── Scripts # Write pre-request and post-response script    
+└──  Response Body # Check the Response from server  
+└── Headers # Check the Response Headers info  
+└── Test Results # View test Results post-response scripts
+```
+
+### Tools & Technologies
+
+- **Postman** → For sending requests and writing test scripts.  
+- **JavaScript** (Postman Scripts) → For automating test validations.  
+- **JSON** → For request body and response data handling.  
+- **Environment Variables** → To store base URL, tokens, and booking IDs.
+
+### 🔎 Observations
+
+- Response status code of delete users info are not expected
+    - Expected Status Code: 204 or 200
+    - Actual Status Code: 201
+    - Test Result: Failed
+- Response massage of delete users info are not expected
+    - Expected  Response Massage: Deleted
+    - Actual Response Massage: Created
+    - Test Result: Failed
+- Otherwise all assertions, responses and test results are working fine.
+
+### 🏁 Conclusion
+
+This project successfully demonstrates how to perform end-to-end API testing using Postman — covering authentication, CRUD operations and response validation using asserion scripts.
