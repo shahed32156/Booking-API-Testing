@@ -77,7 +77,7 @@ https://restful-booker.herokuapp.com
 └── Test Results # View test Results post-response scripts
 ```
 
-### Tools & Technologies
+### 🛠️ Tools & Technologies
 
 - **Postman** → For sending requests and writing test scripts.  
 - **JavaScript** (Postman Scripts) → For automating test validations.  
